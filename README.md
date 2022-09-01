@@ -1,3 +1,5 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/soleti/ml_tutorial/HEAD?labpath=Tutorial.ipynb)
+
 # Machine learning tutorial
 
 In this tutorial we will try to train one _multi layer perceptron_ using [Keras](https://keras.io) and one _boosted decision tree_ using [XGBoost](https://xgboost.readthedocs.io/en/stable/) in order to distinguish between _true_ and _fake_ conversion electron hits in the Mu2e experiment.
