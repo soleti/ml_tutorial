@@ -15,10 +15,10 @@ mamba install -c conda-forge jupyterlab
 Now, we need to create an environment containing the packages required by the tutorial. In the `ml_tutorial` directory run:
 
 ```bash
-mamba create -n ml_tutorial --file requirements.yml
+mamba create -n ml_tutorial --file environment.yml
 ```
 
-This will create a `ml_tutorial` environment. In order to access it you can run 
+This will create a `ml_tutorial` environment. In order to access it you can run
 ```bash
 mamba activate ml_tutorial
 ```
