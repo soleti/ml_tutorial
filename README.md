@@ -27,4 +27,4 @@ Now, we want to add this environment to the list of _kernels_ available to Jupyt
 python -m ipykernel install --user --name ml_tutorial --display-name MLTutorial
 ```
 
-Now you can finally run JupyterLab and select the `Tutorial.ipynb` notebook.
+Now you can finally run JupyterLab and select the `Tutorial.ipynb` notebook and select "MLTutorial" as kernel in the upper right corner.
