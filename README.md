@@ -24,9 +24,15 @@ This will create a `ml_tutorial` environment. In order to access it you can run
 ```bash
 mamba activate ml_tutorial
 ```
-Now, we want to add this environment to the list of _kernels_ available to JupyterLab:
+We then want to add this environment to the list of _kernels_ available to JupyterLab:
 ```bash
 python -m ipykernel install --user --name ml_tutorial --display-name MLTutorial
 ```
 
-Now you can finally run JupyterLab and select the `Tutorial.ipynb` notebook and select "MLTutorial" as kernel in the upper right corner.
+Now, go back to your `base` environment and launch JupyterLab:
+```
+mamba activate base
+jupyterlab Tutorial.ipynb
+```
+
+In order to use the `ml_tutorial` environment you just created select "MLTutorial" in the list of kernels in the upper right part of the interface.
